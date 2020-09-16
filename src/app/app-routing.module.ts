@@ -7,12 +7,15 @@ import { TablaDeEventosComponent } from './features/tabla-de-eventos/tabla-de-ev
 import { ContactanosComponent} from "./features/contactanos/contactanos.component";
 import { RecuperarClaveComponent} from "./features/recuperar-clave/recuperar-clave.component";
 import { SesionUsuarioComponent} from "./features/sesion-usuario/sesion-usuario.component";
+import {TicketsdeusuarioComponent} from './features/ticketsdeusuario/ticketsdeusuario.component';
+
 
 const routes: Routes = [
 {path: 'editarperfil', component: EditarPerfilComponent},
 {path: 'agregartarjeta', component: AgregarTarjetaComponent}, 
 {path: 'detalledeevento', component: DetalleDeEventoComponent}, 
 {path: 'tabladeeventos', component: TablaDeEventosComponent},
+{path: 'ticketsusuarios', component: TicketsdeusuarioComponent},
 {path:'contactanos',component:ContactanosComponent},{path: 'recuperarclave',component:RecuperarClaveComponent},{path: 'sesionusuario',component:SesionUsuarioComponent}];
 ];
 

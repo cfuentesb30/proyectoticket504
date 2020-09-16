@@ -1,8 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
 import { SesionUsuarioComponent } from './features/sesion-usuario/sesion-usuario.component';
 import { ContactanosComponent } from './features/contactanos/contactanos.component';
 import { RecuperarClaveComponent } from './features/recuperar-clave/recuperar-clave.component';
@@ -10,11 +8,13 @@ import { EditarPerfilComponent } from './features/editar-perfil/editar-perfil.co
 import { AgregarTarjetaComponent } from './features/agregar-tarjeta/agregar-tarjeta.component';
 import { DetalleDeEventoComponent } from './features/detalle-de-evento/detalle-de-evento.component';
 import { TablaDeEventosComponent } from './features/tabla-de-eventos/tabla-de-eventos.component';
+import { TicketsdeusuarioComponent } from 'src/app/features/ticketsdeusuario/ticketsdeusuario.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    
     SesionUsuarioComponent,
     ContactanosComponent,
     RecuperarClaveComponent,
@@ -22,6 +22,7 @@ import { TablaDeEventosComponent } from './features/tabla-de-eventos/tabla-de-ev
     AgregarTarjetaComponent,
     DetalleDeEventoComponent,
     TablaDeEventosComponent,
+TicketsdeusuarioComponent,
   ],
   imports: [
     BrowserModule,
