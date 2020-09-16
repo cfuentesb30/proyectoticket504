@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EditarPerfilComponent } from './features/editar-perfil/editar-perfil.component';
 import { AgregarTarjetaComponent } from './features/agregar-tarjeta/agregar-tarjeta.component';
+import { NavegacionComponent } from './features/navegacion/navegacion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EditarPerfilComponent,
-    AgregarTarjetaComponent
+    AgregarTarjetaComponent,
+    NavegacionComponent
   ],
   imports: [
     BrowserModule,
