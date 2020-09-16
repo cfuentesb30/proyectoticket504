@@ -2,6 +2,29 @@ div#contenedor{
     margin-top: 30px;
     margin-left: 10px;
     float: left;
+
+    width: 800px;
+    background-color:lightgrey;
+    font-family: 'Lucida Sans','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div#contenedorpago{
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-right: 40px;
+    float: right;
+    width: 400px;
+    background-color:rgb(245, 247, 137);
+}
+
+.tre{
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    background-color:darkkhaki;
+    font-family: 'Lucida Sans','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
     width: 900px;
     font-family: 'Lucida Sans','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -14,3 +37,4 @@ div#contenedorproveedores{
 
 
 }
+
