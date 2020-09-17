@@ -10,7 +10,6 @@ import { RecuperarClaveComponent} from "./features/recuperar-clave/recuperar-cla
 import { SesionUsuarioComponent} from "./features/sesion-usuario/sesion-usuario.component";
 import {DetallePagoComponent} from './features/detalle-pago/detalle-pago.component';
 import {MensajeConfirmacionComponent} from './features/mensaje-confirmacion/mensaje-confirmacion.component';
-import {TicketsdeusuarioComponent} from './features/ticketsdeusuario/ticketsdeusuario.component';
 
 
 const routes: Routes = [
@@ -18,11 +17,12 @@ const routes: Routes = [
 {path: 'agregartarjeta', component: AgregarTarjetaComponent}, 
 {path: 'detalledeevento', component: DetalleDeEventoComponent}, 
 {path: 'tabladeeventos', component: TablaDeEventosComponent},
-{path: 'ticketsusuarios', component: TicketsdeusuarioComponent},
 {path:'detallepago', component: DetallePagoComponent},
-  {path:'mensajeconfirmacion', component: MensajeConfirmacionComponent},
-{path:'contactanos',component:ContactanosComponent},{path: 'recuperarclave',component:RecuperarClaveComponent},{path: 'sesionusuario',component:SesionUsuarioComponent}];
-];
+{path:'mensajeconfirmacion', component: MensajeConfirmacionComponent},
+{path:'contactanos',component:ContactanosComponent},
+{path: 'recuperarclave',component:RecuperarClaveComponent},
+{path: 'sesionusuario',component:SesionUsuarioComponent}];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
